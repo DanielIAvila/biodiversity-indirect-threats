@@ -11,13 +11,13 @@ The structure is as follows:
 
 The final results of the systematic map are available in the following Zenodo repository:
 
-To avoid infrigthing any copyright by academic journals, only articles' metadata is provided as a "txt", "json" or "RIS" file format.
+To avoid infrigthing any copyright by academic journals, only articles' metadata is provided as a `txt`, `json` or `RIS` file format.
 
 For the original method and source scripts for undertaken a systematic review or map in a similar way, please refer to:
 
-
+    - Avila-Ortega, D.I. et al. 20XX
 
 
 Otherwise, please cite this work as:
 
-    
+    - Grossi, F. et al. 20XX
