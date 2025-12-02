@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=200G 
 #SBATCH --partition=generic
-#SBATCH --mail-user=avilaortega@iiasa.ac.at
+#SBATCH --mail-user=user@domain.com
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 # Load Python environment
