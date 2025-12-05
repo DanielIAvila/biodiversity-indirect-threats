@@ -1,6 +1,6 @@
 # Biodiversity Indirect Threats
 
-This repository contains the required scripts, raw data and preprocessed files for the article **"What is the evidence on indirect drivers of biodiversity loss worldwide? A systematic map protocol" (in review).** 
+This repository contains the required scripts for the article **"What is the evidence on indirect drivers of biodiversity loss worldwide? A systematic map protocol" (in review).** 
 
 The article is a _systematic map protocol_ following the [Preferred Reporting Items for Systematic Review and Meta-Analysis Protocols (PRISMA-P)](https://link.springer.com/article/10.1186/2046-4053-4-1), complemented with the [Guidelines and Standards for Evidence Synthesis in Environmental Management from the Collaboration for Environmental Evidence](https://environmentalevidence.org/information-for-authors/), incorporating the [Reporting standards for Systematic Evidence Syntheses (ROSES)](https://link.springer.com/article/10.1186/s13750-018-0121-7).
 
@@ -20,14 +20,18 @@ In this protocol, we established the required steps to conduct a systematic revi
   </li>
 </ol>
 
-The structure is as follows:
+The structure of this repository is as follows:
 
     - code: ordered scripts to reproduce the flow undertaken for the article (either as a standalone or in an HPC cluster).
-        - auxfiles: raw data files required at any given point by any of the scripts.
+        - auxfiles: auxiliary data files required to run the code in a HPC cluster.
 
-- The final results of the systematic map are available in the following Zenodo repository: https://doi.org/10.5281/zenodo.17153036
+The rest of the documents are available in [Zenodo, DOI: 10.5281/zenodo.17153036](https://doi.org/10.5281/zenodo.17153036). The Zenodo repository contains:
+- The benchmark articles,
+- The scoping search for keywords,
+- The search string and keywords,
+- The OpenAlex downloaded files.
 
-- To avoid infringing on any copyright held by academic journals, only article metadata is provided in `txt`, `json`, or `RIS` format.
+**OBS!** To avoid infringing on any copyright held by academic journals, only article metadata is provided in `txt`, `json`, or `RIS` format.
 
 For the original method and source scripts implemented in this systematic review, please refer to:
 
@@ -36,5 +40,6 @@ For the original method and source scripts implemented in this systematic review
 Otherwise, please cite this work as:
 
 - Grossi, F. et al. 20XX. What is the evidence on indirect drivers of biodiversity loss worldwide? A systematic map protocol. _Plos One_ (in review).
+
 
 
